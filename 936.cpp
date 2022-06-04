@@ -15,8 +15,8 @@ struct p
 
 int main()
 {
-	ifstream in("in.txt");
-	ofstream out("out.txt");
+    ifstream in("in.txt");
+    ofstream out("out.txt");
     int mx, my, n;
     double rd;
     in >> mx >> my >> rd >> n;
