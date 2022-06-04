@@ -9,8 +9,8 @@ using namespace std;
 
 int main()
 {
-	  ifstream in("in.txt");
-	  ofstream out("out.txt");
+    ifstream in("in.txt");
+    ofstream out("out.txt");
     int N;
     in >> N;
     vector <int> v(1 + N,1);
